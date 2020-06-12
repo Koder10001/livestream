@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="bulma.min.css"/>
+    <script src="render.js" defer></script>
+  </head>
+  <body>
+    <h1>Local live stream</h1>
+
+    <video width="600" height="400"></video>
+
+    <button id="startBtn" class="button is-primary">Start</button>
+    <button id="stopBtn" class="button is-warning">Stop</button>
+
+    <hr />
+    
+    <button id="windowSelectBtn" class="button is-text" onclick="getVideoSrc()">
+      Choose a window
+    </button>
+  </body>
+</html>
